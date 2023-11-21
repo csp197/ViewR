@@ -1,5 +1,5 @@
 import axios from "axios";
-import randomIntFromInterval from '../utils/RandomInt';
+import {randomIntFromInterval} from '../utils';
 
 async function ImageService() {
   const res = await axios({

@@ -5,7 +5,7 @@ import Slide from "./components/Slide";
 import Carousel from "./components/Carousel";
 import ImageService from "./components/ImageService";
 import ImageData from "./components/ImageData";
-import randomIntFromInterval from "./utils/RandomInt";
+import {randomIntFromInterval, shuffle} from "./utils";
 
 function App() {
   const imageList = [
@@ -116,7 +116,7 @@ function App() {
   const [fetchDuration, setFetchDuration] = useState(1000);
   const [sliding, setSliding] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [images, setImages] = useState(imageList);
+  const [images, setImages] = useState(shuffle(imageList));
   // const [transition, setTransition] = useState(true);
   // const [, , resetTransition] = useTimeoutFn(() => setTransition(true), 500);
   // const [isLeft, setIsLeft] = useState(false);

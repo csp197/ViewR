@@ -38,7 +38,7 @@ function Header(props: HeaderProps) {
           <h1 className="flex items-center text-5xl font-poppins font-extrabold dark:text-black grid-cols-2">
             View
             <span className="bg-blue-100 text-blue-800 text-2xl font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-2">
-              <a href="/">R</a>
+              <a href="">R</a>
             </span>
             {/* <Toast /> */}
           </h1>

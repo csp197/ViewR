@@ -61,9 +61,9 @@ const Carousel = (props: CarouselProps) => {
           <span
           // className="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
           >
-            Click here to view{" "}
+            Click to view{" "}
             {activeAnchor?.getAttribute("data-img-artist-name") || "this dude"}
-            's photo
+            's image
           </span>
         )}
       />
